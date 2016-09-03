@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("../image/child.jpg");
+    height: 100vh;
+    background-size: cover;
+
+    font-family: "Brush Script Std";
+    font-size: 23px;
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.myButton {
+    background-color:#ffec64;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-family:Arial;
+    font-size:15px;
+    padding:13px 51px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+    
+}
+.myButton:hover {
+    background-color:#ffab23;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
